@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+      body {
+        background-color: silver;
+      }
+      .card img {
+        height: 70%;
+        width: 70%;
+        border-radius: 50%;
+        align-self: center;
+        margin-top: -40px;
+      }
+      #services.card,
+      #team .card:hover {
+        background-color: rgb(34, 33, 33);
+        color: white;
+        box-shadow: 3px 3px 3px 1px white;
+      }
+      #navbar{
+        border-bottom: 5px solid lightskyblue;
+      }
+      .display-4
+      {
+        margin-top: 45px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container bg-dark">
+      <!--navbar start-->
+      <nav id="navbar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top mb-5">
+        <div class="container">
+          <a class="navbar-brand" href="#">MyBootWeb</a>
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#location">Location</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--navbar-end-->
+      <!--slider start-->
+      <div id="slider-1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block img-fluid"
+              src="./slide1.jpeg"
+              alt="First Slide"
+            />
+            <div class="carousel-caption">
+              <h4>Lorem, ipsum.</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis, delectus?
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block img-fluid"
+              src="./slide2.jpeg"
+              alt="Second Slide"
+            />
+            <div class="carousel-caption">
+              <h4>Lorem, ipsum.</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis, delectus?
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block img-fluid"
+              src="./slide3.jpeg"
+              alt="Third Slide"
+            />
+            <div class="carousel-caption">
+              <h4>Lorem, ipsum.</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis, delectus?
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="#slider-1" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#slider-1" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      <!--slider end-->
+      <!--search start-->
+      <nav id="navbar" class="navbar navbar-expand-md navbar-dark bg-dark ">
+        <div class="container">
+         
+          <div class="ml-auto">
+            <form class="form-inline ">
+            <input class="form-control" type="text"  name="search"/><button class="btn btn-primary"><i class="fa fa-search"></i></button>
+          </form>
+          </div>
+        </div>
+      </nav>
+      <!--search end-->
+      <!--home start-->
+      <div id="home" class="row mt-5">
+        <div class="col bg-dark text-white m-0">
+          <h1 class="display-4 text-center">Home</h1>
+          <p class="lead text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
+            officia soluta illo recusandae rem aliquam quidem. Quo voluptas
+            facilis soluta maxime fugiat, a, inventore incidunt sequi at sunt
+            tempore, ipsa possimus quam sint voluptates! Excepturi ducimus
+            repellendus autem magni itaque.
+          </p>
+          <p class="lead text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
+            officia soluta illo recusandae rem aliquam quidem. Quo voluptas
+            facilis soluta maxime fugiat, a, inventore incidunt sequi at sunt
+            tempore, ipsa possimus quam sint voluptates! Excepturi ducimus
+            repellendus autem magni itaque.
+          </p>
+        </div>
+      </div>
+      <!--home end-->
+      <!--about start-->
+      <div id="about" class="row mt-5">
+        <div class="col bg-dark text-white">
+          <h1 class="display-4 text-center">About Us</h1>
+          <p class="lead text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
+            officia soluta illo recusandae rem aliquam quidem. Quo voluptas
+            facilis soluta maxime fugiat, a, inventore incidunt sequi at sunt
+            tempore, ipsa possimus quam sint voluptates! Excepturi ducimus
+            repellendus autem magni itaque.
+          </p>
+          <p class="lead text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
+            officia soluta illo recusandae rem aliquam quidem. Quo voluptas
+            facilis soluta maxime fugiat, a, inventore incidunt sequi at sunt
+            tempore, ipsa possimus quam sint voluptates! Excepturi ducimus
+            repellendus autem magni itaque.
+          </p>
+        </div>
+      </div>
+      <!--about end-->
+      <!--about team start-->
+      <div id="team" class="row mt-5">
+        <div class="col">
+          <h1 class="display-4 text-light text-center">Meet Our Team</h1>
+          <p class="lead text-light">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            eligendi autem eaque dolore quisquam velit iure, dolor magni
+            exercitationem ut impedit iusto quo praesentium, enim aut illo. Rem
+            magni accusantium numquam incidunt vitae doloribus porro sint
+            similique dicta provident, velit facere fugiat modi, quia ad quis
+            perferendis, voluptatum quidem unde.
+          </p>
+          <div class="row mt-5">
+            <div class="col-lg-3 col-md-6"  
+            data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" >
+              <div class="card mt-5">
+                <img src="./p1.jpeg" class="card-img-top" />
+                <div class="card-body">
+                  <h4 class="card-title">James</h4>
+                  <h6 class="card-subtitle">CEO</h6>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eligendi, accusantium?
+                  </p>
+                  <button class="btn btn-primary">Show More</button>
+                </div>
+                <div class="card-footer">
+                  <div class="row">
+                    <div class="col d-flex flex-row justify-content-around">
+                      <a href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+                      <a href="https://www.twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+                      <a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+                      <a href="https://www.github.com"><i class="fab fa-github fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6"  
+            data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+              <div class="card mt-5">
+                <img src="./p2.jpeg" class="card-img-top" />
+                <div class="card-body">
+                  <h4 class="card-title">Neena</h4>
+                  <h6 class="card-subtitle">HR</h6>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eligendi, accusantium?
+                  </p>
+                  <button class="btn btn-primary">Show More</button>
+                </div>
+                <div class="card-footer">
+                  <div class="row">
+                    <div class="col d-flex flex-row justify-content-around">
+                      <a href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+                      <a href="https://www.twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+                      <a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+                      <a href="https://www.github.com"><i class="fab fa-github fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6"  
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+              <div class="card mt-5">
+                <img src="./p3.jpeg" class="card-img-top" />
+                <div class="card-body">
+                  <h4 class="card-title">KSG</h4>
+                  <h6 class="card-subtitle">Devloper</h6>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eligendi, accusantium?
+                  </p>
+                  <button class="btn btn-primary">Show More</button>
+                </div>
+                <div class="card-footer">
+                  <div class="row">
+                    <div class="col d-flex flex-row justify-content-around">
+                      <a href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+                      <a href="https://www.twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+                      <a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+                      <a href="https://www.github.com"><i class="fab fa-github fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6" 
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+              <div class="card mt-5">
+                <img src="./p4.jpeg" class="card-img-top" />
+                <div class="card-body">
+                  <h4 class="card-title">Blake</h4>
+                  <h6 class="card-subtitle">Tester</h6>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eligendi, accusantium?
+                  </p>
+                  <button class="btn btn-primary">Show More</button>
+                </div>
+                <div class="card-footer">
+                  <div class="row">
+                    <div class="col d-flex flex-row justify-content-around">
+                      <a href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+                      <a href="https://www.twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+                      <a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+                      <a href="https://www.github.com"><i class="fab fa-github fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--about team end-->
+      <!--services start-->
+      <div id="services" class="row mt-5">
+        <div class="col">
+          <h1 class="display-4 text-light text-center">Our Services</h1>
+          <p class="lead text-light">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            eligendi autem eaque dolore quisquam velit iure, dolor magni
+            exercitationem ut impedit iusto quo praesentium, enim aut illo. Rem
+            magni accusantium numquam incidunt vitae doloribus porro sint
+            similique dicta provident, velit facere fugiat modi, quia ad quis
+            perferendis, voluptatum quidem unde.
+          </p>
+          <div id="team" class="row mt-5">
+            <div class="col-lg-3 col-md-6" data-aos="zoom-in-right">
+              <div class="card mt-5 text-center p-3">
+                <i class="fa fa-tv fa-8x"></i>
+                <div class="card-body">
+                  <h4 class="card-title">Web Dev</h4>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eligendi, accusantium?
+                  </p>
+                  <button class="btn btn-primary">Show More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6" data-aos="zoom-in-right">
+              <div class="card mt-5 text-center p-3">
+                <i class="fa fa-paint-brush fa-8x"></i>
+                <div class="card-body">
+                  <h4 class="card-title">Web Design</h4>
+
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eligendi, accusantium?
+                  </p>
+                  <button class="btn btn-primary">Show More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6" data-aos="zoom-in-left">
+              <div class="card mt-5 text-center p-3">
+                <i class="fa fa-mobile fa-8x"></i>
+                <div class="card-body">
+                  <h4 class="card-title">App Dev</h4>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eligendi, accusantium?
+                  </p>
+                  <button class="btn btn-primary">Show More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6" data-aos="zoom-in-right">
+              <div class="card mt-5 text-center p-3">
+                <i class="fa fa-globe fa-8x"></i>
+                <div class="card-body">
+                  <h4 class="card-title">SEO</h4>
+
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eligendi, accusantium?
+                  </p>
+                  <button class="btn btn-primary">Show More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--service end-->
+
+      <!--location start-->
+      <div id="location" class="row mt-5">
+        <div class="col bg-dark text-white m-0">
+          <h1 class="display-4 text-center">Our Location</h1>
+          <p class="lead text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
+            officia soluta illo recusandae rem aliquam quidem. Quo voluptas
+            facilis soluta maxime fugiat, a, inventore incidunt sequi at sunt
+            tempore, ipsa possimus quam sint voluptates! Excepturi ducimus
+            repellendus autem magni itaque.
+          </p>
+          <div class="row">
+            <div class="col-md-6">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d413.3359147761921!2d73.75507930411001!3d24.592474303899085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e60efc11e747%3A0x838e91c004f94e2e!2sJRN%20University!5e0!3m2!1sen!2sin!4v1712160454134!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="col-md-6">
+              <h4>About JRN</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum
+                reiciendis autem voluptates blanditiis tempora nulla, qui sequi
+                beatae magnam unde dolores molestias aliquam officia amet eos,
+                at quod ex quidem explicabo illum ad dolor! Possimus doloremque
+                sint nulla animi mollitia atque, assumenda voluptate! Optio
+                fugiat nisi cum asperiores doloremque quod sunt! Ab, nemo sit
+                assumenda sapiente veritatis impedit laboriosam aspernatur autem
+                aut cupiditate ipsam natus, eius repudiandae. Eius provident
+                commodi aspernatur dolorem debitis accusantium ex, laudantium
+                totam eum, rem officia voluptatem, sapiente consectetur vel
+                quaerat deleniti? Eligendi nemo, quibusdam atque eum fuga
+                consequatur libero natus. Illum debitis quidem ipsam dolorem.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--location end-->
+      <!--start contact us-->
+      <div id="contact" class="row mt-5">
+        <div class="col">
+          <h4 class="display-4 text-center text-light mt-t">Contact Us</h4>
+          <div class="row">
+            <div class="col-md-6 text-white">
+              <h2>Your feedback is matter's</h2>
+              <form>
+                <div class="form-group">
+                  <lable>Name</lable>
+                  <input type="text" name="" id="" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <lable>Email</lable>
+                  <input type="email" name="" id="" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <lable>Contact</lable>
+                  <input type="numver" name="" id="" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <lable>Feedback</lable>
+                  <textarea class="form-control" rows="5" cols="15"></textarea>
+                </div>
+                <input
+                  class="btn btn-primary"
+                  type="submit"
+                  name="submit feedback"
+                />
+              </form>
+            </div>
+            <div class="col-md-6 text-light">
+              <h2>Social media links</h2>
+              <table class="table">
+                <tr>
+                  <td>
+                    <a class="btn btn-block btn-danger p-3"><i class="fab fa-facebook fa-2x">&nbsp;Facebook</i
+                    ></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button class="btn btn-block btn-warning p-3"><i class="fab fa-twitter fa-2x">&nbsp;Twitter</i
+                    ></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button class="btn btn-block btn-success p-3"><i class="fab fa-github fa-2x">&nbsp;Github</i
+                    ></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button class="btn btn-block btn-primary p-3"><i class="fab fa-instagram fa-2x">&nbsp;Instagram</i
+                    ></button>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--end contact us-->
+
+      <!--footer start-->
+      <div id="footer" class="row mt-5">
+        <div class="col">
+          <h4 class="p-4 text-light text-center">&copy;KSG.Pvt.Ltd 2023-24</h4>
+        </div>
+      </div>
+      <!--footer end-->
+    </div>
+    <!--java script start-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!--java script end-->
+  </body>
+</html>
